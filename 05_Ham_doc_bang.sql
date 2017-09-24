@@ -1,4 +1,5 @@
-﻿CREATE DATABASE TestDB
+﻿--Trần định hoàng, thay đổi
+CREATE DATABASE TestDB
 GO
 USE TestDB
 GO
