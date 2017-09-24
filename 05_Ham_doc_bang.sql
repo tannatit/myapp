@@ -1,4 +1,5 @@
-﻿CREATE DATABASE TestDB
+﻿-- Cam on Thay, em khong con so git :). tthlan.info,
+CREATE DATABASE TestDB
 GO
 USE TestDB
 GO
