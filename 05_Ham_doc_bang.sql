@@ -1,4 +1,8 @@
-﻿CREATE DATABASE TestDB
+﻿/*Thay doi yeu cau lan 1 tu tannatit*/
+
+
+
+CREATE DATABASE TestDB
 GO
 USE TestDB
 GO
