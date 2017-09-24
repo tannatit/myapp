@@ -9,12 +9,16 @@ CREATE FUNCTION dbo.Danh_sach_nhan_vien(@depid numeric(3,0))
 RETURNS table
 AS
 	RETURN 
+	(
 		SELECT * 
 		FROM EMPLOYEES 
 		WHERE DEPARTMENT_ID=@depid OR @depid=0
+	)	
 GO
 --Test
 SELECT * FROM dbo.Danh_sach_nhan_vien(90)
+SELECT * FROM dbo.Danh_sach_nhan_vien(70)
+SELECT * FROM dbo.Danh_sach_nhan_vien(80)
 SELECT * FROM dbo.Danh_sach_nhan_vien(0)
 SELECT * FROM dbo.Danh_sach_nhan_vien(NULL)
 GO
